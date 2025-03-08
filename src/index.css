@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;800;900&display=swap");
+
+@import "tailwindcss";
+
+body {
+    background: #edeff0;
+}
+
+.container2 {
+    width: 93%;
+    margin: 0 auto;
+}
+
+@media (min-width: 1400px) {
+    .container2 {
+        width: 1350px;
+    }
+}
+
+.ro {
+    font-family: "Roboto", sans-serif;
+}
+
+.lo {
+    font-family: "Lato", sans-serif;
+}
+
+.showcase {
+    background: linear-gradient(to bottom, #262d33 70%, #edeff0 40%);
+    /* background: #000; */
+}
+
+.showcase-bg {
+    background: url(../src/assets/img/showcase.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hand {
+    background: url(../src/assets/img/2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner {
+    background: url(../src/assets/img/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
